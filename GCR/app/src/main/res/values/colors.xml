@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bakgraound_black">#18191c</color>
+    <color name="gray_game_card_background">#232529</color>
+    <color name="gray_game_card_console">#31353b</color>
+
+    <color name="review_blue">#03A9F4</color>
+    green<color name="review_green">#00BC64</color>
+    <color name="review_yellow">#FFEB3B</color>
+    <color name="review_orange">#FFAD44</color>
+    <color name="review_red">#E91E63</color>
+</resources>

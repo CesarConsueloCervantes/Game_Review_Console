@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textView_console_style">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/textview_console_drawable</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="very_positive_style">
+        <item name="android:textColor">@color/review_blue</item>
+        <item name="android:text">Very Positive</item>
+    </style>
+    <style name="positive_style">
+        <item name="android:textColor">@color/review_green</item>
+        <item name="android:text">Positive</item>
+    </style>
+    <style name="mixed_style">
+        <item name="android:textColor">@color/review_yellow</item>
+        <item name="android:text">Mixed</item>
+    </style>
+    <style name="mostly_negative_style">
+        <item name="android:textColor">@color/review_orange</item>
+        <item name="android:text">Mostly Negative</item>
+    </style>
+    <style name="negative_style">
+        <item name="android:textColor">@color/review_red</item>
+        <item name="android:text">Negative</item>
+    </style>
+    <style name="none_style">
+        <item name="android:textColor">@color/gray_game_card_console</item>
+        <item name="android:text">None</item>
+    </style>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dg_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/bakgraound_black">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="Write Review"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:textColor="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbRecommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@color/white"
+            android:buttonTint="@drawable/radio_button_tint"
+            android:text="Recommended" />
+
+        <RadioButton
+            android:id="@+id/rbMixed"
+            android:text="Mixed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:buttonTint="@color/review_blue"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/rbNotRecommended"
+            android:text="Not Recommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:buttonTint="@drawable/radio_button_tint"
+            android:textColor="@color/white"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etComment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Write your comment..."
+        android:padding="10dp"
+        android:background="@drawable/bg_edittext"
+        android:gravity="top"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/bakgraound_black"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/btnPost"
+            android:text="POST"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:background="@drawable/dg_dialog"
+            android:backgroundTint="@color/gray_game_card_console"/>
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:text="CANCEL"
+            android:textSize="16sp"
+            android:padding="14dp"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

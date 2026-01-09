@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aap="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="6dp"
+    android:layout_marginVertical="12dp"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/gray_game_card_background"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:id="@+id/Texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Imagen de portada -->
+        <ImageView
+            android:id="@+id/cardImage"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true" />
+
+
+        <!-- Contenedor de texto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="12dp">
+
+
+            <!-- Título -->
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:minLines="2"
+                android:ellipsize="end"
+                android:text="Marvel's Spider-Man"
+                android:textSize="17sp"
+                android:textColor="@color/white" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Rating -->
+                    <TextView
+                        android:id="@+id/txtRating"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="14sp"
+                        style="@style/very_positive_style"/>
+
+                    <TextView
+                        android:id="@+id/txtReviews"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text = "10k reviews"
+                        android:textSize="14dp"
+                        android:textColor="#9D9D9D" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <!-- Badge PS5 -->
+                <TextView
+                    android:id="@+id/txtConsole"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xbox 360"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_gravity="bottom"
+                    style="@style/textView_console_style"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

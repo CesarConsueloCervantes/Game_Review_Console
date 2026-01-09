@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/gray_game_card_background"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="16dp">
+
+    <TextView
+        android:id="@+id/Console"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="PlayStation"
+        android:foreground="?attr/selectableItemBackground"/>
+
+
+</androidx.cardview.widget.CardView>

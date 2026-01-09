@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+
+    <fragment
+        android:id="@+id/UserFragment"
+        android:name="com.example.gcr.UserFragment"
+        android:label="@string/UserScreen"
+        tools:layout="@layout/user_screen_fragment"/>
+
+    <fragment
+        android:id="@+id/AuthFragment"
+        android:name="com.example.gcr.AuthFragment"
+        android:label="@string/AuthScreen"
+        tools:layout="@layout/auth_screen_fragment"/>
+
+
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.gcr.HomeFragment"
+        android:label="@string/HomeScreen"
+        tools:layout="@layout/home_screen_fragment">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_DetailFragment"
+            app:destination="@id/DetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailFragment"
+        android:name="com.example.gcr.DetailFragment"
+        tools:layout="@layout/detail_screen_fragment">
+
+        <action
+            android:id="@+id/action_DetailFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/loginScreen"
+            layout="@layout/login_screen"
+            android:visibility="visible"/>
+
+        <include
+            android:id="@+id/registerScreen"
+            layout="@layout/register_screen"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</ScrollView>

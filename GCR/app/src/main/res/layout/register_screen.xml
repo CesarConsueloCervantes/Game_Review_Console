@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <!-- Password -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input_bg"
+        android:hint="Username"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A0A0A0"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/input_bg"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A0A0A0"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Confirm Password -->
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/input_bg"
+        android:paddingHorizontal="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A0A0A0"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_marginBottom="35dp"/>
+
+    <!-- Register Button -->
+
+    <!-- Already have account -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_blue"
+        android:fontFamily="sans-serif-medium"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I already have an account"
+            android:textColor="#B5B5B5"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Login"
+            android:textColor="#3D85FF"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/gray_game_card_background"/>
+    <corners android:radius="16dp"/>
+
+    <!-- Padding interno -->
+    <padding
+        android:left="12dp"
+        android:top="8dp"
+        android:right="12dp"
+        android:bottom="8dp"/>
+
+    <!-- Borde (stroke) -->
+    <stroke
+        android:width="1dp"
+        android:color="#555555" />
+
+    <!-- Tamaño mínimo opcional -->
+    <size
+        android:width="0dp"
+        android:height="48dp" />
+
+
+</shape>

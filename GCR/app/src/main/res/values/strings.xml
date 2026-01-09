@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GCR</string>
+    <string name="HomeScreen">HomeScreen</string>
+    <string name="DetailScreen">DetailScreen</string>
+    <string name="UserScreen">UserScreen</string>
+    <string name="MainActivity">MainActivity</string>
+    <string name="AuthScreen" />
+</resources>
