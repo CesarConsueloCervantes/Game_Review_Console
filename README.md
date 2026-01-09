@@ -6,14 +6,14 @@ Aplicación android sobre reviews de juegos de consola
 - API REST (Backend)
 
 # Especificaciones
-Aplicacion Android
+- Aplicacion Android
     - Desarrollada en Android Studio
     - Lenguaje de programación: Kotlin
     - Consume datos desde la API REST
     - Almacenamiento local con SQLite
     - Manejo de sesión de usuario de forma local
 
-API REST
+- API REST
     - Node.js / JavaScript (CommonJS)
     - Express para ruteo y middleware
     - MongoDB como base de datos
@@ -30,12 +30,12 @@ API REST
 - MongoDB (servidor)
 
 # Tecnologías utilizadas
-Frontend (Android)
+- Frontend (Android)
     - Kotlin
     - Android Studio
     - SQLite
 
-Backend
+- Backend
     - Node.js
     - Express
     - MongoDB
